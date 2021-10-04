@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Allison Guo的网页</title>
+  </head>
+  <script>
+function welcome(){
+window.alert("欢迎进入");
+}
+</script>
+</head>
+<body onload="welcome();">
+click to know more
+</body>
+  <body style="background-color:black">
+    <h1 style="font-size:30px;color:white;text-align:center">WELCOME TO MY WORLD</h1>
+    <p style="text-align:center;color:white">Click below to know more</p>
+    <table border="1" cellspacing="0" align="center"
+    bgcolor="white">
+      <tr>
+        <td><a href="file:///Users/Allison/Desktop/images/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF">个人信息</a></td>
+        <td><a href="file:///Users/Allison/Desktop/images/%E6%A0%A1%E5%9B%AD%E7%94%9F%E6%B4%BB">校园生活</a></td>
+        <td><a href="file:///Users/Allison/Desktop/images/%E5%9B%BE%E7%89%87%E5%88%86%E4%BA%AB">图片分享</a></td>
+      </tr>
+    </table>
+  </body>
+</html>
